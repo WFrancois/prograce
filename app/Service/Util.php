@@ -25,16 +25,17 @@ class Util
     public static function getBossName(int $bossId): string
     {
         $bossIds = [
-            179390 => "Fatescribe Roh-Kalo",
-            175731 => "Guardian of the First Ones",
-            15990 => "Kel'Thuzad",
-            176523 => "Painsmith Raznal",
-            175729 => "Remnant of Ner'zhul",
-            175727 => "Soulrender Dormazain",
-            179687 => "Sylvanas Windrunner",
-            180018 => "The Eye of the Jailer",
-            178738 => "The Nine",
-            152253 => "The Tarragrue",
+            26533 => "Lords of Dread",
+            180773 => "Vigilant Guardian",
+            181224 => "Dausegne",
+            181549 => "Prototype Pantheon",
+            181954 => "Anduin Wrynn",
+            182169 => "Lihuvim",
+            182777 => "Rygelon",
+            183501 => "Artificer Xy'mox",
+            183937 => "Skolex",
+            184915 => "Halondrus",
+            185421 => "The Jailer",
         ];
 
         return $bossIds[$bossId] ?? '';
